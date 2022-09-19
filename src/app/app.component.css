@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0 20px 0 0;
+}
+
+.header a {
+    margin-right: 8px;
+}
