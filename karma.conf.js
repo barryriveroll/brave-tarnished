@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/tarnished-journal'),
+      dir: require('path').join(__dirname, './coverage/brave-tarnished'),
       subdir: '.',
       reporters: [
         { type: 'html' },
